@@ -23,7 +23,10 @@ const vqv = (nome, idade) => {
     return undefined;
   }
     // eslint-disable-next-line max-len
-    return `Oi, meu nome é ${nome}!\nTenho ${idade} anos,\ntrabalho na Trybe e mando muito em programação!\n#VQV!`;
+    return `Oi, meu nome é ${nome}!
+    Tenho ${idade} anos,
+    trabalho na Trybe e mando muito em programação!
+    #VQV!`;
 };
 
 module.exports = vqv;
